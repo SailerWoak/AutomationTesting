@@ -20,6 +20,7 @@ When ('primary click', async() => {
 });
 
 Then ('close alert', async() => {
+    await browser.pause(1000);
     await browser.acceptAlert(); // click OK appeared alert
 });
 
@@ -41,7 +42,7 @@ Then ('change style', async() =>{
 Then ('warning', async() => {
     await browser.pause(1000);
     const warning = await $(`[class*="bg-warning"]`).getText();
-    console.log(warning);
+    console.log("Error message: ", warning);
 });
 
 
