@@ -1,6 +1,17 @@
 # AutomationTesting
+
+To run the project: 
+
+* npx wdio run ./wdio.conf.js 
+* you will need have a "yarn"
+* chrome version not lower then 103
+  * Link to download the chrome version: https://chrome.softwaredownload.co.in/chrome-103-0-5060-53
+* You’ll need Node.js installed.
+  * Install at least v12.16.1 or higher as this is the oldest active LTS version
+
 HomeWorks for Automation Practice 
-Automation practice will happen on http://www.uitestingplayground.com/
+
+Automation practice on http://www.uitestingplayground.com/
 
 * First TC
     1) Entering the page "http://www.uitestingplayground.com/dynamicid"
